@@ -1,0 +1,172 @@
+*{
+  box-sizing: border-box;
+}
+
+.logo{
+    width: 100px;
+    
+}
+
+img{
+  width: 100%;
+}
+header {
+     
+    justify-content: space-between;
+    align-items: center; left: auto;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  nav ul {
+    display: none;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 10px;
+    color: white;
+  }
+
+body{
+    background-image:url(img\ marketing/fondo.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+main{
+    color: white;
+    font-size: 80px;
+}
+
+.container{
+    color: white;
+  font-size: 12px;
+}
+
+
+
+article h1{
+  color: black;
+}
+
+
+
+article{
+  background-color: white;
+  box-shadow: 15px; 
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  margin: 4%;
+  
+  
+}
+
+h2{
+  color: white;
+  background-color: #112359;
+  text-align: center;
+  
+}
+
+.itinerario{
+  text-align: right;
+  background-image: url(img\ marketing/itinerario.jpg);
+
+}
+
+.itinerariotodo h1{
+  background-color: #112359;
+  color: white;
+  
+}
+
+.pse{
+  font-size: 25px;
+  grid-template-columns: 1fr 1fr; 
+  gap: 90px;
+
+}
+
+footer {
+  background-color: #112359;
+  color: white;
+  justify-content: space-between;
+  padding: 20px;
+  margin: auto;
+}
+
+
+.icons {
+  display: flex;
+  align-items: right;
+  width: 10%;
+}
+section{
+  padding: 15px;
+}
+@media (min-width:992px){
+  
+  section{
+    display: flex;
+    column-gap: 2%;
+    flex-wrap: wrap;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  .container{
+    color: #ffffff;
+    display: grid;
+  grid-template-columns: 1fr 1fr; /* Divide el contenedor en dos columnas de igual ancho */
+  gap: 250px; /* Añade un espacio entre las columnas */
+  font-size: 21px;
+}
+
+article{
+  background-color: white;
+  box-shadow: 15px; 
+  padding: 20px;
+  border-radius: 5px;
+  width: 90%;
+  text-align: center;
+  margin: 4%;
+  
+  
+}
+
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 15px;
+}
+
+img{
+  width: 50%;
+  align-items: center;
+}
+
+footer {
+  background-color: #112359;
+  color: white;
+  justify-content: space-between;
+  padding: 20px;
+  margin: auto;
+  text-align: left;
+}
+
+
+.icons {
+ text-align: center;
+}
+
+}
